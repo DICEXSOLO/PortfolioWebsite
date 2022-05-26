@@ -1,0 +1,29 @@
+.projects{
+    clear:both;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.projectContainer{
+    float:left;
+    border: 1px solid #ddd; 
+    border-radius: 4px; 
+    padding: 75px; 
+    width: 400px; 
+    position:relative;
+}
+
+.projectContainer:hover{
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.projectContainer h1{
+    position:absolute;
+    top:50%;
+    left:0;
+    color:rgb(12, 96, 222);
+    width:100%;
+    text-align:center;
+    transform:translateY(-50%); /* doesn't work in IE9 and older I'm affraid */
+    margin:0;
+}
+
