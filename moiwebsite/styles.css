@@ -8,7 +8,6 @@ h1{
 }
 
 img{
-    border: 1px solid #ddd; 
     border-radius: 4px; 
     padding: 5px; 
     width: 400px; 
@@ -16,6 +15,12 @@ img{
 .main-container{
     padding:50px;
     margin:10px;
+}
+
+.easterEgg img{
+    float:right;
+    width:50px;
+
 }
 
 .home{
