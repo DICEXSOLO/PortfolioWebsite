@@ -8,7 +8,7 @@
     border: 1px solid #ddd; 
     border-radius: 4px; 
     padding: 75px; 
-    width: 400px; 
+    width: 350px; 
     position:relative;
 }
 
@@ -20,7 +20,7 @@
     position:absolute;
     top:50%;
     left:0;
-    color:rgb(12, 96, 222);
+    color:rgb(17, 64, 129);
     width:100%;
     text-align:center;
     transform:translateY(-50%); /* doesn't work in IE9 and older I'm affraid */
